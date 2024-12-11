@@ -1,53 +1,51 @@
 #include <stdio.h>
-#include <windows.h>
+#include <stdlib.h>
+#include <time.h>
 
-#define SIZE 10
+#define SIZE 5
+
+void shuffle(int array[], int size)
+{
+	
+	for (int i = 0; i < size; i++)
+	{
+		int range = rand() % size;
+
+		int temporary = array[range];
+		array[range] = array[i];
+		array[i] = temporary;
+	}
+}
 
 int main()
 {
-	// 홀수 의뢰인 짝수 탐정
+#pragma region rand() 함수
 
-	const char* dialog[SIZE];
+	// seed값에 따라서 rand의 값이 바뀌게 됩니다.
+	// srand(time(NULL));
+	// 
+	// int random = rand() % 10 + 1 ;
+	// rand() % n : 0 ~ n-1 범위의 난수 생성
+	// (rand() % n) + 1 : 1 ~ n 범위의 난수 생성
+	// 
+	// printf("random 변수의 값 : %d\n", random);
 
-	dialog[0] = "무엇을 도와 드릴까요?";
-	dialog[1] = "잃어버린 강아지를 찾아주세요.";
-	dialog[2] = "찾을 만한 단서가 어떤 것이 있나요?";
-	dialog[3] = "우리집 강아지는 비숑입니다.";
-	dialog[4] = "또 다른 단서는 없나요?";
-	dialog[5] = "목에 이름표가 있습니다.";
-	dialog[6] = "강아지 이름이 어떻게 됩니까?";
-	dialog[7] = "강아지 이름은 몽이 입니다.";
-	dialog[8] = "다음 주 까지 찾아 보겠습니다.";
-	dialog[9] = "감사합니다.";
+#pragma endregion
 
-	int count = 0;
+#pragma region 셔플 함수
 
-	while (count < SIZE)
+	srand(time(NULL));
+
+	int list[SIZE] = { 1,2,3,4,5 };
+
+	shuffle(list, SIZE);
+
+	for (int i = 0; i < SIZE; i++)
 	{
-		// 0x0000 : 이전에 누른 적이 없고 호출 시점에도 눌려있지 않은 상태
-		
-		// 0x0001 : 이전에 누른 적이 있고 호출 시점에는 눌려있지 않은 상태
-
-		// 0x8000 : 이전에 누른 적이 없고 호출 시점에는 눌려있는 상태
-
-		// 0x8001 : 이전에 누른 적이 있고 호출 시점에도 눌려있는 상태
-
-		if (GetAsyncKeyState(VK_SPACE) & 0x0001)
-		{
-			if (count % 2 == 0)
-			{
-				printf("탐정 : ");
-			}
-			else
-			{
-				printf("의뢰인 : ");
-			}
-
-			printf("%s\n", dialog[count]);
-
-			count++;
-		}
+		printf("%d ", list[i]);
 	}
+#pragma endregion
+
 
 	return 0;
 }
