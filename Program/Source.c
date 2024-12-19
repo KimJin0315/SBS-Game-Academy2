@@ -1,70 +1,48 @@
 #include <stdio.h>
 
-#define WIDTH 10
-#define HEIGHT 10
+#define SIZE 10000
 
-char maze[WIDTH][HEIGHT] =
+void Load(const char* fileName)
 {
-	{'1','1','1','1','1','1','1','1','1','1'},
-	{'1','0','0','0','0','0','0','0','0','1'},
-	{'1','0','1','1','0','1','1','0','1','1'},
-	{'1','0','1','1','0','1','1','0','1','1'},
-	{'1','0','0','0','0','0','0','0','1','1'},
-	{'1','1','1','0','1','0','1','0','1','1'},
-	{'1','1','0','0','0','0','0','0','1','1'},
-	{'1','0','0','1','1','1','1','0','0','1'},
-	{'1','1','0','0','0','1','1','1','1','1'},
-	{'1','1','1','1','1','1','1','1','1','1'}
-};
 
-void Render()
-{
-	for (int i = 0; i < WIDTH; i++)
-	{
-		for (int j = 0; j < HEIGHT; j++)
-		{
-			if (maze[i][j] == '0')
-			{
-				printf("  ");
-			}
-			else if (maze[i][j] == '1')
-			{
-				printf("■");
-			}
-		}
-		printf("\n");
-	}
+	// "r" reda : 파일을 읽기위해 사용하는 모드입니다.
+	FILE* file = fopen(fileName, "r");
+
+	char buffer[SIZE] = { 0, };
+
+	// 첫 번째 매개변수 : 읽은 데이터를 저장할 메모리 버퍼의 포인터 변수
+	// 두 번째 매개변수 : 각 데이터 항목의 크기
+	// 세 번째 매개변수 : 데이터를 읽어올 데이터 항목의 수
+	// 네 번째 매개변수 : 데이터를 읽어올 파일의 포인터 변수
+
+	fread(buffer, 1, SIZE, file);
+
+	printf("%s", buffer);
+
+	fclose(file);
+
 }
 
 int main()
 {
-#pragma region (2)차원 배열
-	// 배열의 요소로 또 다른 배열을 가리키는 배열입니다.
-
-	//	int array2D[3][3] =
-	//	{
-	//		{1,2,3},
-	//		{4,5,6},
-	//		{7,8,9},
-	//	};
-	//	
-	//	for (int i = 0; i < 3; i++)
-	//	{
-	//		for (int j = 0; j < 3; j++)
-	//		{
-	//			printf("%d ", array2D[i][j]);
-	//		}
-	//		printf("\n");
-	//	}
+#pragma region 파일 쓰기
 	
-	// 2차원 배열과 행과 열로 구분되며 앞에 있는 배열은
-	// 열을 의미하고, 뒤에 있는 배열은 행을 의미합니다.
+	// "w" wirte : 파일 쓰기 모드로 진행합니다.
+	//	FILE* file = fopen("data.txt", "w");
+	//	
+	//	fputs("Character Name\n", file);
+	//	fputs("Health \n", file);
+	//	fputs("Level \n", file);
+	//	
+	//	fclose(file);
 
 #pragma endregion
 
-	Render();
+#pragma region 파일 읽기
 
-	
+	Load("unit.txt");
+
+#pragma endregion
 
 
 	return 0;

@@ -1,0 +1,123 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\SBS-Game-Academy2\\Program\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{40B35F0A-AC3F-404A-B279-745E7CFF6B85}|Program.vcxproj|C:\\Users\\Administrator\\Desktop\\SBS-Game-Academy2\\Program\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{40B35F0A-AC3F-404A-B279-745E7CFF6B85}|Program.vcxproj|solutionrelative:Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B2E7B1C-D55B-4592-BCAD-090E3115E4C8}|..\\Class5th (Two Dimensional Array)\\Class5th (Two Dimensional Array).vcxproj|C:\\Users\\Administrator\\Desktop\\SBS-Game-Academy2\\Class5th (Two Dimensional Array)\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C4BD2CD-AB98-448C-9326-4EB88433CD08}|..\\Class4th (Color)\\Class4th (Color).vcxproj|C:\\Users\\Administrator\\Desktop\\SBS-Game-Academy2\\Class4th (Color)\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85F74FEA-1EB7-4A1B-96B2-0056284277D8}|..\\Class1th (GetAsyncKeyState)\\Class1th (GetAsyncKeyState).vcxproj|C:\\Users\\Administrator\\Desktop\\SBS-Game-Academy2\\Class1th (GetAsyncKeyState)\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7AAA61B-6928-454B-9284-0BCCEEA4EDDA}|..\\Class2th (Time)\\Class2th (Time).vcxproj|C:\\Users\\Administrator\\Desktop\\SBS-Game-Academy2\\Class2th (Time)\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{095DF471-D233-4A1F-9C9F-9A7BD50F1714}|..\\Class3th (Double Buffer)\\Class3th (Double Buffer).vcxproj|C:\\Users\\Administrator\\Desktop\\SBS-Game-Academy2\\Class3th (Double Buffer)\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Source.c",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SBS-Game-Academy2\\Program\\Source.c",
+              "RelativeDocumentMoniker": "Source.c",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SBS-Game-Academy2\\Program\\Source.c",
+              "RelativeToolTip": "Source.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-12-10T09:14:33.629Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Source.c",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SBS-Game-Academy2\\Class1th (GetAsyncKeyState)\\Source.c",
+              "RelativeDocumentMoniker": "..\\Class1th (GetAsyncKeyState)\\Source.c",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SBS-Game-Academy2\\Class1th (GetAsyncKeyState)\\Source.c",
+              "RelativeToolTip": "..\\Class1th (GetAsyncKeyState)\\Source.c",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-12-11T09:04:20.477Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Source.c",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SBS-Game-Academy2\\Class2th (Time)\\Source.c",
+              "RelativeDocumentMoniker": "..\\Class2th (Time)\\Source.c",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SBS-Game-Academy2\\Class2th (Time)\\Source.c",
+              "RelativeToolTip": "..\\Class2th (Time)\\Source.c",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-12-13T09:05:48.558Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Source.c",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SBS-Game-Academy2\\Class3th (Double Buffer)\\Source.c",
+              "RelativeDocumentMoniker": "..\\Class3th (Double Buffer)\\Source.c",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SBS-Game-Academy2\\Class3th (Double Buffer)\\Source.c",
+              "RelativeToolTip": "..\\Class3th (Double Buffer)\\Source.c",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-12-17T09:34:33.641Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Source.c",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SBS-Game-Academy2\\Class4th (Color)\\Source.c",
+              "RelativeDocumentMoniker": "..\\Class4th (Color)\\Source.c",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SBS-Game-Academy2\\Class4th (Color)\\Source.c",
+              "RelativeToolTip": "..\\Class4th (Color)\\Source.c",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-12-18T09:15:49.784Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Source.c",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SBS-Game-Academy2\\Class5th (Two Dimensional Array)\\Source.c",
+              "RelativeDocumentMoniker": "..\\Class5th (Two Dimensional Array)\\Source.c",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SBS-Game-Academy2\\Class5th (Two Dimensional Array)\\Source.c",
+              "RelativeToolTip": "..\\Class5th (Two Dimensional Array)\\Source.c",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAEYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-12-19T09:07:31.386Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
